@@ -16,15 +16,15 @@
 
       body{
         font: 13px Helvetica, Arial;
-        background-color: #37ade7;
+        background-color: #AD85FF;
         display: flex;
         justify-content: center;
       }
 
       form {
-        background:#78e60f;
+        background:#5E10FF;
         padding: 1%;
-        position: absolute;
+        position: fixed;
         bottom: 2%;
         width: 80%;
       }
@@ -39,7 +39,8 @@
 
       form button {
         width: 9%;
-        background: #13f2f2;
+        background: #000001;
+        color:#AD85FF;
         border: none;
         padding: 10px;
       }
@@ -53,18 +54,22 @@
       #messages li {
         list-style-type:circle;
         padding: 5px 10px;
+        color: #AD85FF;
       }
 
       #messages li:nth-child(odd) {
         background: #eee;
+        color: #000001;
       }
       #chat{
         width: 80%;
         height: 50vh;
-        background-color:#ee2d70;
+        background-color:#2A0575;
       }
       .centrar{
         text-align: center;
+        color: #AD85FF;
+        font-size: 6vh;
       }
 
       </style>
@@ -89,7 +94,7 @@
 
 
   <section id="chat">
-    <h2 class="centrar">Chat</h2>
+    <h2 class="centrar">"Chat"</h2>
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" placeholder="@..." /><button>Send</button>
