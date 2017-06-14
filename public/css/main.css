@@ -1,15 +1,17 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   font: 13px Helvetica, Arial;
+  background-color: black;
 }
 
 form {
-  background: #000;
+  background:#78e60f;
   padding: 3px;
   position: fixed;
   bottom: 0;
@@ -17,15 +19,16 @@ form {
 }
 
 form input {
-  border: 0;
-  padding: 10px;
-  width: 90%;
+  border: 2px solid;
+  border-color: #8028d6;
+  padding: 1%;
+  width: 85%;
   margin-right: .5%;
 }
 
 form button {
   width: 9%;
-  background: rgb(130, 224, 255);
+  background: #13f2f2;
   border: none;
   padding: 10px;
 }
